@@ -1,0 +1,51 @@
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Aligns panels vertically */
+    gap: 20px; /* Adds space between left and right panels */
+    padding: 20px;
+}
+
+#leftpanel, #rightpanel {
+    width: 50%;
+    min-height: 70vh;
+}
+
+#rightpanel {
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+#input_users {
+    width: 100%;
+    min-height: 70vh;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#resetbutton {
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+#resetbutton:hover {
+    background-color: #0056b3;
+}
